@@ -4,7 +4,7 @@ export const Container = styled.div`
       width: 50px;
     }
     @media (min-width: 768px) {
-    width: 100px;
+    width: 70px;
   }
   `
 

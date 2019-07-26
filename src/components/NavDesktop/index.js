@@ -8,7 +8,7 @@ export const NavDesktop = () => (
   <Nav>
     <Logo />
     <List>
-      <Link to='/user'><WiAlien size='3rem' /></Link>
+      <Link to='/my-account'><WiAlien size='3rem' /></Link>
       <Link to='/'><MdHome size='2rem' /></Link>
       <Link to='/notifications'><GoBell size='2rem' /></Link>
     </List>

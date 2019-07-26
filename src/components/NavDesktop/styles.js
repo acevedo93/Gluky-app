@@ -7,6 +7,7 @@ export const Nav = styled.nav`
   display:flex;
   justify-content:space-around;
   align-content:center;
+  background: white;
 `
 export const List = styled.ul`
    display:flex;

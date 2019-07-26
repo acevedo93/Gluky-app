@@ -6,7 +6,7 @@ import { GoBell } from 'react-icons/go'
 export const NavMobile = () => {
   return (
     <Nav>
-      <Link to='/user'><WiAlien size='50px' /></Link>
+      <Link to='/my-account'><WiAlien size='50px' /></Link>
       <Link to='/'><MdHome size='32px' /></Link>
       <Link to='/notifications'><GoBell size='30px' /></Link>
     </Nav>

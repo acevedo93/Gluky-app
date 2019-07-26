@@ -8,6 +8,8 @@ class RestClient {
 
   constructor () {
     this.instance = axiosCreate
+    const token = window.localStorage.getItem('auth-token')
+    this.instance.defaults.headers.common['Authorization'] = `Bearer ${token}`
     // this.instance.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
     // this.instance.defaults.headers.post['Content-Type'] ='application/x-www-form-urlencoded';
     this.instance.interceptors.response.use(

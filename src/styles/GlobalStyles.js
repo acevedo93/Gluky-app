@@ -15,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
   button { background: transparent; border: 0; outline: 0 }
 
   body {
-    background: #fefefe;
+    background: #fafafa;
     height: 100vh;
     margin: 0 auto;
     overscroll-behavior: none;
